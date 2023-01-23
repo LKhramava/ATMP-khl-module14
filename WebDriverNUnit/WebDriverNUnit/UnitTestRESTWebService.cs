@@ -14,6 +14,8 @@ namespace WebDriverNUnit
 		[Test]
 		public void TestCheckGetUsersStatusCode()
 		{
+			Log.Info(string.Format(@"Check getting users status code"));
+
 			var expectedStatusCode = HttpStatusCode.OK;
 			Assert.AreEqual(expectedStatusCode, Response.StatusCode);
 		}
@@ -21,6 +23,8 @@ namespace WebDriverNUnit
 		[Test]
 		public void TestCheckGetUsersContentTypeHeader()
 		{
+			Log.Info(string.Format(@"Check getting users content type header"));
+
 			var expectedContentType = "application/json; charset=utf-8";
 			var contentType = Response.ContentType;
 
@@ -30,6 +34,8 @@ namespace WebDriverNUnit
 		[Test]
 		public void TestCheckGetUsersCount()
 		{
+			Log.Info(string.Format(@"Check getting users count"));
+
 			var expectedUsersCount = 10;
 			var responseBody = GetReponseBody(Response);
 
