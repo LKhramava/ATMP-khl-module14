@@ -1,0 +1,20 @@
+2023-01-23 03:35:41,952 INFO  WebDriverNUnit.TestsForMailRu - Delete first draft email with actions for user: "lizakhramova"
+2023-01-23 03:36:01,938 INFO  WebDriverNUnit.TestsForMailRu - Save draft email for user: "lizakhramova"
+2023-01-23 03:36:12,519 INFO  WebDriverNUnit.TestsForMailRu - Login user with actions: "lizakhramova" to mail.ru
+2023-01-23 03:36:24,442 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users content type header
+2023-01-23 03:36:24,638 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users count
+2023-01-23 03:36:24,817 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users status code
+2023-01-23 03:40:38,496 INFO  WebDriverNUnit.TestsForMailRu - Delete first draft email with actions for user: "lizakhramova"
+2023-01-23 03:40:44,315 INFO  WebDriverNUnit.TestsForMailRu - Save draft email for user: "lizakhramova"
+2023-01-23 03:40:57,061 INFO  WebDriverNUnit.TestsForMailRu - Login user with actions: "lizakhramova" to mail.ru
+2023-01-23 03:41:01,526 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users content type header
+2023-01-23 03:41:01,779 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users count
+2023-01-23 03:41:02,057 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users status code
+2023-01-23 03:43:12,588 INFO  WebDriverNUnit.TestsForMailRu - Delete first draft email with actions for user: "lizakhramova"
+2023-01-23 03:43:45,021 INFO  WebDriverNUnit.TestsForMailRu - Save draft email for user: "lizakhramova"
+2023-01-23 03:44:13,378 INFO  WebDriverNUnit.TestsForMailRu - Save draft email with xml data for user.
+2023-01-23 03:44:18,535 INFO  WebDriverNUnit.TestsForMailRu - Save draft email with xml data for user: "lizakhramova"
+2023-01-23 03:44:41,087 INFO  WebDriverNUnit.TestsForMailRu - Send draft email for user: "lizakhramova"
+2023-01-23 03:44:51,545 INFO  WebDriverNUnit.TestsForMailRu - Test SendDraftEmail("lizakhramova","070461040485","lizakhramova@mail.ru","TestAT","Hello! My name is Liza! How are you? See you later. Bye.") is failed and screenshot has been taken.
+2023-01-23 03:44:56,045 INFO  WebDriverNUnit.TestsForMailRu - Login user: "lizakhramova" to mail.ru
+2023-01-23 03:45:21,172 INFO  WebDriverNUnit.TestsForMailRu - Login user with actions: "lizakhramova" to mail.ru

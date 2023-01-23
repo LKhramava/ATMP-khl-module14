@@ -16,6 +16,7 @@ namespace WebDriverNUnit
 		[TestCaseSource(nameof(GetTestLoginData))]
 		public void TestLogin(User user)
 		{
+			Log.Info(string.Format(@"Login user: ""{0}"" to mail.ru", user.Login));
 			var homePage = new HomePage();
 			homePage.GoToYourAccountPage(user);
 		}
@@ -52,6 +53,8 @@ namespace WebDriverNUnit
 		[TestCaseSource(nameof(GetTestLoginData))]
 		public void TestLoginWithActions(User user)
 		{
+			Log.Info(string.Format(@"Login user with actions: ""{0}"" to mail.ru", user.Login));
+
 			var homePage = new HomePage();
 			homePage.GoToYourAccountPageWithActions(user);
 		}
@@ -60,6 +63,7 @@ namespace WebDriverNUnit
 		[TestCaseSource(nameof(GetTestLoginData))]
 		public void DeleteFirstDraftEmailWithActions(User user)
 		{
+			Log.Info(string.Format(@"Delete first draft email with actions for user: ""{0}""", user.Login));
 			var homePage = new HomePage();
 			var accountPage = homePage.GoToYourAccountPageWithActions(user);
 
@@ -72,6 +76,7 @@ namespace WebDriverNUnit
 		[TestCase("lizakhramova", "070461040485", "lizakhramova@mail.ru", "TestAT", "Hello! My name is Liza! How are you? See you later. Bye.")]
 		public void SaveDraftEmail(string login, string password, string letterEmail, string letterSubject, string letterBody)
 		{
+			Log.Info(string.Format(@"Save draft email for user: ""{0}""", login));
 			var homePage = new HomePage();
 			var user = new User() { Login = login, Password = password };
 
@@ -88,11 +93,15 @@ namespace WebDriverNUnit
 		[Test]
 		public void SaveDraftEmailWithXmlTestData()
 		{
+			Log.Info(string.Format(@"Save draft email with xml data for user."));
+
 			var testData = TestDataHelper.ReadTestData(TestDataType.Xml);
 
 			var homePage = new HomePage();
 
 			var accountPage = homePage.GoToYourAccountPage(testData.User);
+
+			Log.Info(string.Format(@"Save draft email with xml data for user: ""{0}""", testData.User.Login));
 
 			accountPage.SaveDraftEmail(testData.Letter);
 			var letterInDraft = accountPage.VerifySavedDraftEmail(testData.Letter);
@@ -103,6 +112,8 @@ namespace WebDriverNUnit
 		[TestCase("lizakhramova", "070461040485", "lizakhramova@mail.ru", "TestAT", "Hello! My name is Liza! How are you? See you later. Bye.")]
 		public void SendDraftEmail(string login, string password, string letterEmail, string letterSubject, string letterBody)
 		{
+			Log.Info(string.Format(@"Send draft email for user: ""{0}""", login));
+
 			var homePage = new HomePage();
 			var user = new User() { Login = login, Password = password };
 

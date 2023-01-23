@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="9" result="Failed" total="9" passed="8" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7" engine-version="3.15.2.0" clr-version="4.0.30319.42000" start-time="2023-01-23 00:47:57Z" end-time="2023-01-23 00:50:04Z" duration="127.003801">
+  <command-line><![CDATA[C:\Users\Lizaveta_Khramava\.nuget\packages\nunit.consolerunner\3.15.2\tools\nunit3-console.exe  D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\bin\Debug\net6.0\WebDriverNUnit.dll --work=D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\ResultsFromCmd]]></command-line>
+  <test-suite type="Assembly" id="1-1017" name="WebDriverNUnit.dll" fullname="D:/EPAM/TA/temp/ATMP-khl-module14/WebDriverNUnit/WebDriverNUnit/bin/Debug/net6.0/WebDriverNUnit.dll" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2023-01-23T00:47:57.7929983Z" end-time="2023-01-23T00:50:04.3529141Z" duration="126.559876" total="9" passed="8" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+    <environment framework-version="3.13.2.0" clr-version="6.0.13" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit" machine-name="EPBYMINW11E1" user="Lizaveta_Khramava" user-domain="EPAM" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\ResultsFromCmd" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Fixtures" />
+      <property name="LevelOfParallelism" value="2" />
+      <property name="_PID" value="23824" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="WebDriverNUnit_NUnitAssemblyHooks" classname="WebDriverNUnit_NUnitAssemblyHooks" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2023-01-23T00:47:57.7987226Z" end-time="2023-01-23T00:50:04.3528829Z" duration="126.554161" total="9" passed="8" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\bin\Debug\net6.0\WebDriverNUnit.dll
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="1-1018" name="WebDriverNUnit" fullname="WebDriverNUnit" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2023-01-23T00:47:58.0534292Z" end-time="2023-01-23T00:50:04.3494766Z" duration="126.296047" total="9" passed="8" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1013" name="UnitTestRESTWebService" fullname="WebDriverNUnit.UnitTestRESTWebService" classname="WebDriverNUnit.UnitTestRESTWebService" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-01-23T00:47:58.0534760Z" end-time="2023-01-23T00:47:58.8763433Z" duration="0.822868" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="1-1015" name="TestCheckGetUsersContentTypeHeader" fullname="WebDriverNUnit.UnitTestRESTWebService.TestCheckGetUsersContentTypeHeader" methodname="TestCheckGetUsersContentTypeHeader" classname="WebDriverNUnit.UnitTestRESTWebService" runstate="Runnable" seed="1578447421" result="Passed" start-time="2023-01-23T00:47:58.1195452Z" end-time="2023-01-23T00:47:58.5395265Z" duration="0.420072" asserts="1">
+            <output><![CDATA[2023-01-23 03:47:58,526 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users content type header
+]]></output>
+          </test-case>
+          <test-case id="1-1016" name="TestCheckGetUsersCount" fullname="WebDriverNUnit.UnitTestRESTWebService.TestCheckGetUsersCount" methodname="TestCheckGetUsersCount" classname="WebDriverNUnit.UnitTestRESTWebService" runstate="Runnable" seed="1709805274" result="Passed" start-time="2023-01-23T00:47:58.5417830Z" end-time="2023-01-23T00:47:58.8097839Z" duration="0.268001" asserts="1">
+            <output><![CDATA[2023-01-23 03:47:58,726 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users count
+]]></output>
+          </test-case>
+          <test-case id="1-1014" name="TestCheckGetUsersStatusCode" fullname="WebDriverNUnit.UnitTestRESTWebService.TestCheckGetUsersStatusCode" methodname="TestCheckGetUsersStatusCode" classname="WebDriverNUnit.UnitTestRESTWebService" runstate="Runnable" seed="117232121" result="Passed" start-time="2023-01-23T00:47:58.8098346Z" end-time="2023-01-23T00:47:58.8754522Z" duration="0.065618" asserts="1">
+            <output><![CDATA[2023-01-23 03:47:58,873 INFO  WebDriverNUnit.UnitTestRESTWebService - Check getting users status code
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1001" name="TestsForMailRu" fullname="WebDriverNUnit.TestsForMailRu" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2023-01-23T00:47:58.0534753Z" end-time="2023-01-23T00:50:04.3494639Z" duration="126.295989" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1007" name="DeleteFirstDraftEmailWithActions" fullname="WebDriverNUnit.TestsForMailRu.DeleteFirstDraftEmailWithActions" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-01-23T00:47:58.1193596Z" end-time="2023-01-23T00:48:31.9554689Z" duration="33.836109" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="1-1006" name="DeleteFirstDraftEmailWithActions(WebDriverNUnit.Entities.User)" fullname="WebDriverNUnit.TestsForMailRu.DeleteFirstDraftEmailWithActions(WebDriverNUnit.Entities.User)" methodname="DeleteFirstDraftEmailWithActions" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" seed="1446133240" result="Passed" start-time="2023-01-23T00:47:58.1195558Z" end-time="2023-01-23T00:48:31.9554269Z" duration="33.835871" asserts="1">
+              <output><![CDATA[2023-01-23 03:48:02,308 INFO  WebDriverNUnit.TestsForMailRu - Delete first draft email with actions for user: "lizakhramova"
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1009" name="SaveDraftEmail" fullname="WebDriverNUnit.TestsForMailRu.SaveDraftEmail" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-01-23T00:48:31.9554922Z" end-time="2023-01-23T00:48:44.3207705Z" duration="12.365279" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="1-1008" name="SaveDraftEmail(&quot;lizakhramova&quot;,&quot;070461040485&quot;,&quot;lizakhramova@mail.ru&quot;,&quot;TestAT&quot;,&quot;Hello! My name is Liza! How are you? See you later. Bye.&quot;)" fullname="WebDriverNUnit.TestsForMailRu.SaveDraftEmail(&quot;lizakhramova&quot;,&quot;070461040485&quot;,&quot;lizakhramova@mail.ru&quot;,&quot;TestAT&quot;,&quot;Hello! My name is Liza! How are you? See you later. Bye.&quot;)" methodname="SaveDraftEmail" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" seed="434063729" result="Passed" start-time="2023-01-23T00:48:31.9555219Z" end-time="2023-01-23T00:48:44.3206954Z" duration="12.365174" asserts="1">
+              <output><![CDATA[2023-01-23 03:48:35,743 INFO  WebDriverNUnit.TestsForMailRu - Save draft email for user: "lizakhramova"
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-case id="1-1010" name="SaveDraftEmailWithXmlTestData" fullname="WebDriverNUnit.TestsForMailRu.SaveDraftEmailWithXmlTestData" methodname="SaveDraftEmailWithXmlTestData" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" seed="367952987" result="Passed" start-time="2023-01-23T00:48:44.3208130Z" end-time="2023-01-23T00:49:12.7326816Z" duration="28.411869" asserts="1">
+            <output><![CDATA[2023-01-23 03:48:47,608 INFO  WebDriverNUnit.TestsForMailRu - Save draft email with xml data for user.
+2023-01-23 03:48:53,074 INFO  WebDriverNUnit.TestsForMailRu - Save draft email with xml data for user: "lizakhramova"
+]]></output>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1-1012" name="SendDraftEmail" fullname="WebDriverNUnit.TestsForMailRu.SendDraftEmail" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2023-01-23T00:49:12.7327104Z" end-time="2023-01-23T00:49:28.9873582Z" duration="16.254648" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1011" name="SendDraftEmail(&quot;lizakhramova&quot;,&quot;070461040485&quot;,&quot;lizakhramova@mail.ru&quot;,&quot;TestAT&quot;,&quot;Hello! My name is Liza! How are you? See you later. Bye.&quot;)" fullname="WebDriverNUnit.TestsForMailRu.SendDraftEmail(&quot;lizakhramova&quot;,&quot;070461040485&quot;,&quot;lizakhramova@mail.ru&quot;,&quot;TestAT&quot;,&quot;Hello! My name is Liza! How are you? See you later. Bye.&quot;)" methodname="SendDraftEmail" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" seed="1040551602" result="Failed" start-time="2023-01-23T00:49:12.7327504Z" end-time="2023-01-23T00:49:28.9871527Z" duration="16.254403" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at WebDriverNUnit.TestsForMailRu.SendDraftEmail(String login, String password, String letterEmail, String letterSubject, String letterBody) in D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\UnitTestMailRu.cs:line 134
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[2023-01-23 03:49:16,472 INFO  WebDriverNUnit.TestsForMailRu - Send draft email for user: "lizakhramova"
+2023-01-23 03:49:28,730 INFO  WebDriverNUnit.TestsForMailRu - Test SendDraftEmail("lizakhramova","070461040485","lizakhramova@mail.ru","TestAT","Hello! My name is Liza! How are you? See you later. Bye.") is failed and screenshot has been taken.
+]]></output>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at WebDriverNUnit.TestsForMailRu.SendDraftEmail(String login, String password, String letterEmail, String letterSubject, String letterBody) in D:\EPAM\TA\temp\ATMP-khl-module14\WebDriverNUnit\WebDriverNUnit\UnitTestMailRu.cs:line 134
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1003" name="TestLogin" fullname="WebDriverNUnit.TestsForMailRu.TestLogin" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-01-23T00:49:28.9873791Z" end-time="2023-01-23T00:49:38.6587063Z" duration="9.671327" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="1-1002" name="TestLogin(WebDriverNUnit.Entities.User)" fullname="WebDriverNUnit.TestsForMailRu.TestLogin(WebDriverNUnit.Entities.User)" methodname="TestLogin" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" seed="1975677428" result="Passed" start-time="2023-01-23T00:49:28.9874099Z" end-time="2023-01-23T00:49:38.6586693Z" duration="9.671260" asserts="0">
+              <output><![CDATA[2023-01-23 03:49:32,746 INFO  WebDriverNUnit.TestsForMailRu - Login user: "lizakhramova" to mail.ru
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1005" name="TestLoginWithActions" fullname="WebDriverNUnit.TestsForMailRu.TestLoginWithActions" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-01-23T00:49:38.6587280Z" end-time="2023-01-23T00:50:04.3494306Z" duration="25.690703" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <test-case id="1-1004" name="TestLoginWithActions(WebDriverNUnit.Entities.User)" fullname="WebDriverNUnit.TestsForMailRu.TestLoginWithActions(WebDriverNUnit.Entities.User)" methodname="TestLoginWithActions" classname="WebDriverNUnit.TestsForMailRu" runstate="Runnable" seed="441260354" result="Passed" start-time="2023-01-23T00:49:38.6587575Z" end-time="2023-01-23T00:50:04.3493978Z" duration="25.690641" asserts="0">
+              <output><![CDATA[2023-01-23 03:49:42,269 INFO  WebDriverNUnit.TestsForMailRu - Login user with actions: "lizakhramova" to mail.ru
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
